@@ -1,4 +1,14 @@
-def dsfs(dsfds):
-    print(dsfds + 1)
-def pp():
-    print("dfdfss")
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+
+def dsfs():
+    print(os.getenv("KEY"))
+
+def pp(dsfds):
+    print(dsfds)
+
+dsfs()
